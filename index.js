@@ -13,13 +13,21 @@
 		console.log('SLIDE HAS BEEN CHANGED');
 	}
 
-	function nexSlide() {
+	function getActiveNumber() {
+		return $('.slider__list li.active').index() + 1;
+	}
+
+	function nextSlide() {
+		var activeSlideNumber = getActiveNumber();
+		nextSlideNumber = activeSlideNumber + 1;
+
+		setSlide(nextSlideNumber);
 
 	}
 
 	setInterval(function() {
 		var slide = getRandom(0, 5);
-		setSlide(slide)
+		nextSlide()
 	}, 4000)
 
 })();
