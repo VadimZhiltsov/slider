@@ -1,0 +1,16 @@
+.slider {
+	width: 1000px;
+	height: 600px;
+	overflow: hidden;
+}
+
+
+.slider__list {
+	display: flex;
+	flex-flow: row;
+	list-style: none;
+	padding-left: 0;
+
+	transition: all 0.5s;
+}
+
