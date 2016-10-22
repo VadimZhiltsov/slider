@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider example</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Slider</h1>
+
+	<div id="superSlider">
+		<div class="slider" role="slider"  tabindex="0" >
+			<ul class="slider__list">
+				<li class="active"><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+			</ul>
+		</div>
+		<a href="javascript: void(0)" class="slider__prev-button" role="button">Prev</a>
+		<a href="javascript: void(0)" class="slider__next-button" role="button">Next</a>
+		<button class="slider__autoplay-button">Autoplay</button>
+	</div>
+
+	<div id="commonSlider">
+		<div class="slider" role="slider"  tabindex="0" >
+			<ul class="slider__list">
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li><img src="http://placehold.it/1000x600"/></li>
+				<li class="active"><img src="http://placehold.it/1000x600"/></li>
+			</ul>
+		</div>
+		<a href="javascript: void(0)" class="slider__prev-button" role="button">Prev</a>
+		<a href="javascript: void(0)" class="slider__next-button" role="button">Next</a>
+		<button class="slider__autoplay-button">Autoplay</button>
+	</div>
+
+	<script  type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+	<script defer asyc type="text/javascript" src="dist/all.js"></script>
+</body>
+</html>
