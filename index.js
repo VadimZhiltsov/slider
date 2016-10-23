@@ -24,7 +24,7 @@
 		setSlide(nextSlideNumber);
 
 	}
-qwerqewrqwe
+
 	setInterval(function() {
 		nextSlide()
 	}, 4000)
