@@ -26,7 +26,6 @@
 	}
 
 	setInterval(function() {
-		var slide = getRandom(0, 5);
 		nextSlide()
 	}, 4000)
 
